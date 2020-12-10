@@ -4,19 +4,40 @@ html {
 
 body {
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
     margin: 0;
 }
 
 .content {
     margin: 0 auto;
     padding: 1em;
+    text-align: center;
+}
+
+.content p {
+    text-align: left;
+}
+
+.intr {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.fdjpg {
+    height: auto;
+    max-width: 80%;
 }
 
 .redwhite {
     color: rgb(0, 0, 0);
     padding: 1em;
     text-align: auto;
+}
+
+.foot {
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .footer a {
@@ -28,17 +49,66 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 2.5em;
-    margin: 1em 0;
+    margin: auto;
     text-align: center; 
+}
+
+.inmenu {
+    display: flex;
+    flex-flow: column;
+}
+
+.inmenu a{
+    display: flex;
+    flex-flow: column;
+    padding: .3em 5em;
+    background-color: rgb(155, 0, 0);
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
 }
 
 .imgf {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .logo {
     display: block;
+}
+
+@media screen and (min-width:37.5em) {
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .innermenu {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .innermenu a {
+        padding: .3em 1.5em;
+        border-bottom: 0;
+        border-right: 1px solid white;
+    }
+}
+
+
+@media screen and (min-width:48em) {
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width:60em) {
+    .foot,
+    .content {
+        max-width: 60em;
 }
