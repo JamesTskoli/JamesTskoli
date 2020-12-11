@@ -120,6 +120,11 @@ body {
       max-width: 100%;
 }
 
+.fking {
+    height: auto;
+    max-width: 100%;
+}
+
 .copy {
       text-align: center;
       color: white;
