@@ -36,7 +36,7 @@ body {
 }
 
 .redwhite {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 1em;
     text-align: auto;
 }
@@ -94,36 +94,49 @@ body {
     overflow: hidden;
     padding-top: 56.25%; /* 16:9*/
     position: relative;
-  }
+}
   
-  .iframe-container iframe {
+.iframe-container iframe {
      border: 0;
      height: 100%;
      left: 0;
      position: absolute;
      top: 0;
      width: 100%;
-  }
+}
 
-  .ntrm {
+.ntrm {
       height: auto;
       max-width: 100%;
-  }
+}
 
-  .ntrcontain {
+.ntrcontain {
     padding-top: 2em;
     padding-bottom: 2em;
-  }
+}
 
-  .ngrl {
+.ngrl {
       height: auto;
       max-width: 100%;
-  }
+}
 
-  .copy {
+.copy {
       text-align: center;
       color: white;
-  }
+}
+
+.redwhite a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.redwhite a:hover{
+    color: white;
+}
+
+.navs a {
+    color: white;
+}
 
 @media screen and (min-width:37.5em) {
     .foot {
