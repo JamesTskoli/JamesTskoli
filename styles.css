@@ -18,6 +18,12 @@ body {
     text-align: left;
 }
 
+.content2 {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+
 .intr {
     margin: 0 auto;
     padding: 1em;
@@ -26,7 +32,7 @@ body {
 
 .fdjpg {
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .redwhite {
@@ -97,6 +103,21 @@ body {
      width: 100%;
   }
 
+  .ntrm {
+      height: auto;
+      max-width: 100%;
+  }
+
+  .ntrcontain {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .ngrl {
+      height: auto;
+      max-width: 100%;
+  }
+
 @media screen and (min-width:37.5em) {
     .foot {
         display: grid;
@@ -112,18 +133,6 @@ body {
         border-right: 1px solid white;
     }
 }
-
-.ngcontain {
-    padding-top: 1em;
-    display: flex;
-    align-items: center;
-}
-
-.ngcontain img {
-    height: auto;
-    max-width: 100%;
-}
-
 
 @media screen and (min-width:48em) {
     .foot {
