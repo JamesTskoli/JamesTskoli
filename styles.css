@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-family: 'IBM Plex Mono', monospace;
     background-color: rgb(136, 0, 0);
     color: rgb(160, 0, 0);
     margin: 0;
@@ -129,6 +130,17 @@ body {
     height: auto;
     max-width: 100%;
 }
+
+.prblm {
+    height: auto;
+    max-width: 100%;
+}
+
+.fgrv {
+    height: auto;
+    max-width: 100%;
+}
+
 
 .copy {
       text-align: center;
